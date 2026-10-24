@@ -1,0 +1,326 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1e293b;
+  background: #f5f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f5f7fb;
+  color: #1e293b;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.navbar-shell {
+  background: #fff;
+  border-bottom: 1px solid #e8edf4;
+}
+
+.app-navbar {
+  min-height: 76px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  color: #172554;
+  font-size: 1.08rem;
+  font-weight: 750;
+  letter-spacing: -0.03em;
+}
+
+.brand:hover {
+  color: #172554;
+}
+
+.brand-mark {
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 11px;
+  background: #3158d4;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 750;
+}
+
+.navbar-nav {
+  gap: 8px;
+}
+
+.navbar-nav .nav-link {
+  padding: 9px 14px;
+  border-radius: 8px;
+  color: #64748b;
+  font-size: 0.92rem;
+  font-weight: 550;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background: #eef2ff;
+  color: #3158d4;
+}
+
+.main-content {
+  padding-top: 48px;
+  padding-bottom: 42px;
+}
+
+.page-card {
+  padding: 34px;
+  border: 1px solid #e9edf4;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 32px rgb(24 39 75 / 5%);
+}
+
+.page-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #3158d4;
+  font-size: 0.7rem;
+  font-weight: 750;
+  letter-spacing: 0.13em;
+}
+
+h1 {
+  margin: 0;
+  color: #172554;
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-weight: 720;
+  letter-spacing: -0.045em;
+}
+
+.heading-description {
+  margin: 8px 0 0;
+  color: #718096;
+  font-size: 0.94rem;
+}
+
+.employee-count {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5px 0 0;
+}
+
+.count-number {
+  color: #172554;
+  font-size: 1.65rem;
+  font-weight: 720;
+  line-height: 1.1;
+}
+
+.count-label {
+  margin-top: 4px;
+  color: #8793a5;
+  font-size: 0.78rem;
+}
+
+.employee-table-wrap {
+  overflow: hidden;
+  border: 1px solid #e8edf4;
+  border-radius: 11px;
+}
+
+.employee-table thead th {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e8edf4;
+  background: #f8faff;
+  color: #718096;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.employee-table tbody td {
+  padding: 15px 18px;
+  border-color: #edf1f6;
+  color: #4b5b70;
+  font-size: 0.9rem;
+}
+
+.employee-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.id-badge {
+  display: inline-grid;
+  min-width: 30px;
+  height: 27px;
+  place-items: center;
+  border-radius: 7px;
+  background: #f1f4fa;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.employee-name {
+  color: #27364b !important;
+  font-weight: 620;
+}
+
+.email-link {
+  color: #3158d4;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.table-message {
+  padding: 30px 18px !important;
+  color: #718096 !important;
+  text-align: center;
+}
+
+.data-source {
+  margin: 16px 0 0;
+  color: #9aa5b5;
+  font-size: 0.77rem;
+}
+
+.form-card {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.form-card .page-heading {
+  margin-bottom: 32px;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  color: #34445a;
+  font-size: 0.86rem;
+  font-weight: 620;
+}
+
+.form-control,
+.input-group-text {
+  min-height: 46px;
+  border-color: #dfe5ee;
+  font-size: 0.9rem;
+}
+
+.form-control {
+  color: #27364b;
+}
+
+.form-control::placeholder {
+  color: #a3adbb;
+}
+
+.form-control:focus {
+  border-color: #8198ed;
+  box-shadow: 0 0 0 3px rgb(49 88 212 / 12%);
+}
+
+.input-group-text {
+  background: #f8faff;
+  color: #64748b;
+}
+
+.form-footer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.submit-button {
+  min-height: 44px;
+  padding: 0 20px;
+  border-color: #3158d4;
+  background: #3158d4;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  border-color: #2649bc;
+  background: #2649bc;
+}
+
+.form-notice {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.app-footer {
+  padding-bottom: 24px;
+  color: #9aa5b5;
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.app-footer span {
+  padding: 0 5px;
+}
+
+@media (max-width: 575.98px) {
+  .app-navbar {
+    min-height: 68px;
+  }
+
+  .navbar-nav {
+    gap: 0;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 8px 9px;
+    font-size: 0.83rem;
+  }
+
+  .main-content {
+    padding-top: 24px;
+  }
+
+  .page-card {
+    padding: 22px 18px;
+    border-radius: 13px;
+  }
+
+  .page-heading {
+    gap: 12px;
+  }
+
+  .employee-table thead th,
+  .employee-table tbody td {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .email-link {
+    overflow-wrap: anywhere;
+  }
+
+  .form-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
