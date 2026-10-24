@@ -1,11 +1,16 @@
 {
   "name": "employee-dashboard",
   "private": true,
+<<<<<<< HEAD
   "version": "1.0.0",
+=======
+  "version": "0.0.0",
+>>>>>>> e04375085b2f7a0971ef3bc6f174e7962f3101be
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,5 +21,26 @@
   },
   "devDependencies": {
     "vite": "^5.4.11"
+=======
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "vite": "^8.3.4"
+>>>>>>> e04375085b2f7a0971ef3bc6f174e7962f3101be
   }
 }
